@@ -11,4 +11,5 @@
     <string name="введите_текст">введите_текст\n</string>
     <string name="text">text:</string>
     <string name="Отправить">Отправить</string>
+    <string name="info">info</string>
 </resources>

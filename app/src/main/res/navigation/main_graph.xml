@@ -43,6 +43,9 @@
         <action
             android:id="@+id/action_blankFragment3_to_blankFragment4"
             app:destination="@id/blankFragment4" />
+        <action
+            android:id="@+id/action_blankFragment3_to_infoFragment"
+            app:destination="@id/infoFragment" />
     </fragment>
     <fragment
         android:id="@+id/blankFragment4"
@@ -59,4 +62,9 @@
         android:name="ru.itis.summerpractice242.NewFragment"
         android:label="fragment_new"
         tools:layout="@layout/fragment_new" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="ru.itis.summerpractice242.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
 </navigation>
